@@ -1,0 +1,18 @@
+{
+  "name": "Desk Racer Pro — 3D Micro RC Drift Racing Game",
+  "short_name": "Desk Racer Pro",
+  "description": "Play Desk Racer Pro, an arcade 3D micro RC drift time-trial game in your browser.",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#0f172a",
+  "theme_color": "#00d2ff",
+  "orientation": "landscape-primary",
+  "icons": [
+    {
+      "src": "./favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

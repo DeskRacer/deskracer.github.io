@@ -1,0 +1,6 @@
+{
+  "name": "Desk Racer Pro — Micro RC Time Trial",
+  "description": "High-fidelity procedural 3D micro RC car time trial racer across an architect's desk with drift physics, checkpoint splits, and procedural Web Audio engine sound.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

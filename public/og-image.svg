@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#090d16" />
+      <stop offset="100%" stop-color="#0f172a" />
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#00d2ff" />
+      <stop offset="100%" stop-color="#3b82f6" />
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="8" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#bg)" />
+
+  <!-- Grid underlay -->
+  <g stroke="rgba(255,255,255,0.05)" stroke-width="2">
+    <line x1="0" y1="105" x2="1200" y2="105" />
+    <line x1="0" y1="210" x2="1200" y2="210" />
+    <line x1="0" y1="315" x2="1200" y2="315" />
+    <line x1="0" y1="420" x2="1200" y2="420" />
+    <line x1="0" y1="525" x2="1200" y2="525" />
+    <line x1="200" y1="0" x2="200" y2="630" />
+    <line x1="400" y1="0" x2="400" y2="630" />
+    <line x1="600" y1="0" x2="600" y2="630" />
+    <line x1="800" y1="0" x2="800" y2="630" />
+    <line x1="1000" y1="0" x2="1000" y2="630" />
+  </g>
+
+  <!-- Decorative glow orb -->
+  <circle cx="950" cy="300" r="220" fill="rgba(0,210,255,0.12)" filter="url(#glow)" />
+  <circle cx="250" cy="150" r="140" fill="rgba(59,130,246,0.10)" filter="url(#glow)" />
+
+  <!-- Badge -->
+  <rect x="100" y="90" width="260" height="40" rx="8" fill="rgba(0,210,255,0.15)" stroke="rgba(0,210,255,0.4)" stroke-width="1.5" />
+  <text x="230" y="115" fill="#38bdf8" font-family="monospace" font-size="16" font-weight="bold" text-anchor="middle" letter-spacing="2">MICRO RC TIME TRIAL</text>
+
+  <!-- Title -->
+  <text x="100" y="220" fill="#ffffff" font-family="system-ui, -apple-system, sans-serif" font-size="76" font-weight="900" font-style="italic">DESK RACER <tspan fill="#00d2ff" font-style="normal">PRO</tspan></text>
+
+  <!-- Subtitle -->
+  <text x="100" y="280" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="28" font-weight="500">
+    Arcade 3D Micro RC Car Drift Racer Online
+  </text>
+
+  <!-- Feature Pills -->
+  <g font-family="monospace" font-size="16" font-weight="bold">
+    <rect x="100" y="340" width="180" height="42" rx="10" fill="#1e293b" stroke="rgba(255,255,255,0.1)" />
+    <text x="190" y="367" fill="#e2e8f0" text-anchor="middle">⚡ WebGL 60FPS</text>
+
+    <rect x="300" y="340" width="190" height="42" rx="10" fill="#1e293b" stroke="rgba(255,255,255,0.1)" />
+    <text x="395" y="367" fill="#e2e8f0" text-anchor="middle">🏎️ Drift Physics</text>
+
+    <rect x="510" y="340" width="200" height="42" rx="10" fill="#1e293b" stroke="rgba(255,255,255,0.1)" />
+    <text x="610" y="367" fill="#e2e8f0" text-anchor="middle">🔊 Web Audio Synths</text>
+  </g>
+
+  <!-- CTA Box -->
+  <rect x="100" y="440" width="320" height="60" rx="14" fill="url(#accent)" />
+  <text x="260" y="478" fill="#ffffff" font-family="system-ui, sans-serif" font-size="22" font-weight="bold" text-anchor="middle">
+    PLAY NOW · FREE ONLINE
+  </text>
+
+  <!-- Canonical URL banner -->
+  <text x="100" y="550" fill="#64748b" font-family="monospace" font-size="18">
+    https://deskracer.github.io/
+  </text>
+
+  <!-- Large Stylized RC Car Artwork on Right -->
+  <g transform="translate(850, 310) rotate(-15) scale(2.2)">
+    <!-- Shadow -->
+    <ellipse cx="0" cy="5" rx="55" ry="30" fill="rgba(0,0,0,0.5)" filter="url(#glow)" />
+    <!-- Rear Wing -->
+    <rect x="-42" y="-48" width="84" height="12" rx="3" fill="#38bdf8" />
+    <circle cx="-32" cy="-42" r="3" fill="#f43f5e" />
+    <circle cx="32" cy="-42" r="3" fill="#f43f5e" />
+    <!-- Wheels -->
+    <rect x="-48" y="-35" width="16" height="30" rx="5" fill="#090d16" stroke="#00d2ff" stroke-width="2" />
+    <rect x="32" y="-35" width="16" height="30" rx="5" fill="#090d16" stroke="#00d2ff" stroke-width="2" />
+    <rect x="-46" y="15" width="14" height="28" rx="4" fill="#090d16" stroke="#00d2ff" stroke-width="2" />
+    <rect x="32" y="15" width="14" height="28" rx="4" fill="#090d16" stroke="#00d2ff" stroke-width="2" />
+    <!-- Main Body -->
+    <path d="M -35 -40 L -25 45 L 25 45 L 35 -40 Z" fill="#00d2ff" />
+    <path d="M -22 -15 L -16 28 L 16 28 L 22 -15 Z" fill="#090d16" />
+    <!-- Racing Stripes -->
+    <rect x="-5" y="-40" width="10" height="85" fill="#ffffff" />
+    <!-- Front Splitter -->
+    <rect x="-38" y="44" width="76" height="6" rx="2" fill="#1e293b" />
+    <circle cx="-20" cy="42" r="3" fill="#ffffff" />
+    <circle cx="20" cy="42" r="3" fill="#ffffff" />
+  </g>
+</svg>
